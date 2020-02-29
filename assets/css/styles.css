@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* .nav{
+  margin-left: 30px;
+} */
+
+.nav__logo{
+  height: 120px;
+  width: 30%;
+  margin: 5px;
+
+}
+
+body {
+  font-family: 'Akronim' ;
+  color: #0B0B61;
+  background: url(../img/sLPqWg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+#pokemon-img img {
+  width: 80px;
+  height: 80px;
+}
+
+
+h1 {
+  color: #0B0B61;
+  margin-top: -1%;
+  font-size: 40px;
+
+
+}
+
+.input-group .form-control:first-child,
+.input-group-addon:first-child,
+.input-group-btn:first-child>.btn, .input-group-btn:first-child>.btn-group>.btn,
+.input-group-btn:first-child>.dropdown-toggle,
+.input-group-btn:last-child>.btn-group:not(:last-child)>.btn,
+.input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  height: 50px;
+  font-size: 20px;
+}
+
+.input-group-btn:last-child>.btn,
+.input-group-btn:last-child>.btn-group {
+  z-index: 2;
+  margin-left: -1px;
+  height: 50px;
+  width: 60px;
+}
+
+b, regular {
+  font-weight: 100px;
+  font-size: 55px;
+  color: #000;
+}
+
+.h6, h6 {
+  font-size: 25px;
+}
+
+.btn-danger{
+  font-size: 25px;
+}
+
+#form{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.form{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.graficos {
+  display: none;
+}
+

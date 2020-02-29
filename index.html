@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Akronim&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="shortcut icon" href="assets/img/descarga.png" type="image/jpg">
+  <title>Pokedex</title>
+</head>
+
+<body>
+
+  <nav>
+    <!--inicio -->
+    <div class="nav">
+      <a href="#" class="brand-logo"><img class="nav__logo" src="assets/img/pokedex.png" alt="logo" /></a>
+    </div>
+  </nav>
+
+  <header class="masthead">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+          <h1>Encuentra tú Pokémon</h1>
+          <form id="form">
+            <div class="input-group col-md-12 col-xs-12 col-sm-12">
+              <input type="text" class="form-control input-md" id="pokemon-name"
+                placeholder="Buscar por nombre o número" />
+              <span class="input-group-btn" id="pokesearch">
+                <button class="btn btn-danger btn-md" type="button">GO</button>
+              </span>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="row form">
+        <div class="col-lg-12 col-md-12 col-sm-6 col-xs-6 text-center">
+          <div class="input-group col-md-12 col-xs-12 col-sm-12 table-responsive">
+            <div class="table-responsive-sm">
+            <table id="info" class="table">
+              <thead>
+                <tr>
+                  <th scope="col"> Pokemon </th>
+                  <th scope="col"> Nombre </th>
+                  <th scope="col"> Peso </th>
+                  <th scope="col"> Número </th>
+                  <th scope="col"> Habilidades </th>
+                  <th scope="col"> Tipo </th>
+                  <th scope="col"> Estadistica </th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- On rows -->
+    
+                <tr>
+                  <td class="table-primary">
+                    <div id="pokemon-img"></div>
+                  </td>
+                  <td class="table-secondary">
+                    <div id="pokemon-nombre"></div>
+                  </td>
+                  <td class="table-success">
+                    <div id="pokemon-peso"></div>
+                  </td>
+                  <td class="table-success">
+                    <div id="pokemon-numero"></div>
+                  </td>
+                  <td class="table-danger">
+                    <div id="pokemon-habilidades"></div>
+                  </td>
+                  <td class="table-success">
+                    <div id="pokemon-tipo"></div>
+                  </td>
+                  <td class="table-success">
+                    <button onclick="mostrarGrafico()">Ver</button>
+                    <button onclick="cerrarGrafico()">Cerrar</button>
+                  </td>
+    
+                </tr>
+              </tbody>
+            </table>
+          </div>
+            <div id="graficos" class="graficos">
+            </div>
+            <!--  -->
+          </div>
+        </div>
+      </div>
+      <div class="text-center col-lg-4 col-md-4 col-sm-12 col-xs-12" id="pokemon-container">
+      </div>
+      
+    </div>
+  </header>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="crossorigin="anonymous"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>    <script src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/jquery.canvasjs.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/jquery.canvasjs.min.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+
+</html>
